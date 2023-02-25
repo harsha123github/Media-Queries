@@ -1,0 +1,53 @@
+body{
+    background-color: red;
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}
+div::after{
+    content: "welcome to the demo";
+}
+/* @media(min-width:900px){
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content:"woah are we responsive"
+    }
+}
+@media(min-width:1024px){
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content:"even bigger"
+    }
+ } */
+ /* @media(max-width:400px){
+    body{
+        background-color:violet;
+    }
+    div::after{
+        content:"very small"
+    }
+}  */
+@media(max-width:400px){
+    body{
+        background-color:violet;
+    }
+    div::after{
+        content:"very small"
+    }
+} 
+@media(min-width:400px) and (max-width:768px){
+    body{
+        background-color:orange;
+    }
+    div::after{
+        content:"meduim screen";
+    }
+}
+
+   
+
